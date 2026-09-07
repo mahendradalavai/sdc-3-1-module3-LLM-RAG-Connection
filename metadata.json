@@ -1,0 +1,7 @@
+{
+  "name": "RAG vs LLM",
+  "description": "Integrate retrieval with an LLM to generate answers from documents and compare side-by-side with direct LLM responses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
