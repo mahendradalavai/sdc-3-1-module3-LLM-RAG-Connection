@@ -5,14 +5,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.example.ui.MainScreen
-import com.example.ui.theme.MyApplicationTheme
+import com.example.ui.theme.RagBenchTheme
 
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     enableEdgeToEdge()
     setContent {
-      MyApplicationTheme {
+      RagBenchTheme {
         MainScreen()
       }
     }

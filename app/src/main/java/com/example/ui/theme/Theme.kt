@@ -60,7 +60,7 @@ private val LightColorScheme =
   )
 
 @Composable
-fun MyApplicationTheme(
+fun RagBenchTheme(
   darkTheme: Boolean = isSystemInDarkTheme(),
   // For Geometric Balance theme, dynamicColor defaults to false so the bespoke theme is rendered
   dynamicColor: Boolean = false,
@@ -78,4 +78,13 @@ fun MyApplicationTheme(
     }
 
   MaterialTheme(colorScheme = colorScheme, typography = Typography, content = content)
+}
+
+@Composable
+fun MyApplicationTheme(
+  darkTheme: Boolean = isSystemInDarkTheme(),
+  dynamicColor: Boolean = false,
+  content: @Composable () -> Unit,
+) {
+  RagBenchTheme(darkTheme = darkTheme, dynamicColor = dynamicColor, content = content)
 }

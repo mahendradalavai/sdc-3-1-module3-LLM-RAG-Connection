@@ -74,7 +74,7 @@ fun ApiKeyDialog(
         text = {
             Column(modifier = Modifier.fillMaxWidth()) {
                 Text(
-                    text = "Powered by gemini-2.5-flash for both RAG-grounded and Direct generation. Enter your API key below or set GEMINI_API_KEY in the AI Studio Secrets panel.",
+                    text = "Powered by gemini-2.5-flash for both RAG-grounded and Direct generation. Enter your API key below or set GEMINI_API_KEY in your environment configuration.",
                     style = MaterialTheme.typography.bodyMedium,
                     color = GeoSecondary
                 )
